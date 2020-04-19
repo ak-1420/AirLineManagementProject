@@ -1,0 +1,452 @@
+/* <html>
+    <head>
+        <Title>
+            Flight Registration Form
+        </Title>
+        
+	<style>
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpQJrnXAL9GIdeObYKfHjVPmze4b-XFsCPwvA9aHLSEY94L86t&usqp=CAU');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 800px;
+margin-top: auto;
+margin-bottom: auto;
+width: 600px;
+/*background-color: rgba(0,0,0,0.5) !important;
+*/
+
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+#passbtn:hover{
+    color:Red;
+    background-color:yellow;
+    border-radius:70%;
+}
+
+	    
+	    
+	</style>
+        
+        
+    </head>
+    <body>
+        
+        
+<div class="container" >
+	<div class="d-flex justify-content-center">
+		<div class="card" style="color:white">
+			<div class="card-header">
+				<h3 style="color:black">Sign Up</h3>
+			</div>
+			<div class="card-body">
+			  <form class="was-validated">
+			        <table  cellpadding="5" cellspacing="25">
+			           <thread>
+			            <th style="color:red">Required Account Information</th>
+			        </thread>
+			        <tr style="color:black">
+			            <td>FirstName: * <br>
+			            
+                      <lable style="color:blue">(As per passport)</lable> 
+			            </td>
+			            <td>LastName: * <br>
+<lable style="color:blue">(As per passport)</lable> 
+			            
+			            </td>
+			        </tr>
+			        <tr>
+			            <td>
+			              	<div class="input-group form-group">
+						<div class="input-group-prepend">
+							
+						</div>
+						<input type="text" class="form-control" placeholder="FirstName" required>
+ <div class="valid-feedback">Valid.</div>
+    <div class="invalid-feedback">Please fill out this field.</div>
+						
+				</div>
+			            </td>
+			            <td>
+			                
+			          	<div class="input-group form-group">
+						<div class="input-group-prepend">
+							
+						</div>
+						<input type="text" class="form-control" placeholder="LastName" required>
+ <div class="valid-feedback">Valid.</div>
+    <div class="invalid-feedback">Please fill out this field.</div>
+						
+				</div>
+			                
+			            </td>
+			        </tr>
+			        <tr>
+			          
+			            
+			            
+			            
+			            <td>
+			                
+			                
+<div class="form-group">
+  <label for="sel1">Select Gender:</label>
+  <select class="form-control" id="sel1">
+    <option>Select.....</option>
+    <option>Male</option>
+    <option>Female</option>
+  </select>
+</div>
+			                
+			                
+			                
+			            </td>
+			            
+			            
+			           
+			        </tr>
+			        <tr>
+ <td>
+Name On Card: * 
+			                
+			                
+	          	<div class="input-group form-group">
+						<div class="input-group-prepend">
+							
+						</div>
+						
+
+
+						<input type="text" class="form-control" placeholder="Name On Card" required>
+ <div class="valid-feedback">Valid.</div>
+    <div class="invalid-feedback">Please fill out this field.</div>
+						
+				</div>
+			            </td>
+			            
+ <td>
+Date of birth: *
+
+			                
+	          	<div class="input-group form-group">
+						<div class="input-group-prepend">
+							
+						</div>
+						
+
+
+						<input type="date" class="form-control" placeholder="Name On Card" required>
+ <div class="valid-feedback">Valid.</div>
+    <div class="invalid-feedback">Please Fill Date Of Birth.</div>
+						
+				</div>
+			            </td>
+			            
+			            
+			            
+			        </tr>
+<tr>
+    
+			            <td>
+<div class="form-group">
+ <label for="sel1">Nationality: *</label>
+  <select class="form-control" id="sel1">
+    <option>Select.......</option>
+    <option>Afghanistan</option>
+
+<option>Albania</option>
+
+<option>Algeria</option>
+
+<option>Argentina</option>
+
+<option>Australia</option>
+
+<option>Austria</option>
+
+<option>Albanian</option>
+<option>Algerian</option>
+<option>Argentine</option>
+<option>Australian</option>
+<option>Austrian</option>
+<option>Bangladesh</option>
+<option>Bengal</option>
+<option>Belgium</option>
+<option>Bolivia</option>
+<option>Botswana</option>
+<option>Brazil</option>
+<option>Bulgaria</option>
+<option>Cambodia</option>
+<option>Cameroon</option>
+<option>Canada</option>
+<option>Chile</option>
+<option>China</option>
+<option>Colombia</option>
+<option>Costa Rica</option>
+<option>Croatia</option>
+<option>Cuba</option>
+<option>Czech</option>
+<option>Republic</option>
+<option>Denmark</option>
+<option>Dominican Republic</option>
+<option>Ecuador</option>
+<option>Egypt</option>
+<option>El Salvador</option>
+<option>England</option>
+<option>Estonia</option>
+<option>Ethiopia</option>
+<option>Fiji</option>
+<option>Finland</option>
+<option>France</option>
+<option>Germany</option>
+<option>Ghana</option>
+<option>Greece</option>
+<option>Guatemala</option>
+<option>Haiti</option>
+<option>Honduras</option>
+<option>Hungary</option>
+<option>Iceland</option>
+<option>India</option>
+<option>Indonesia</option>
+<option>Iran</option>
+<option>Iraq</option>
+<option>Ireland</option>
+<option>Israel</option>
+<option>Italy</option>
+<option>Jamaica</option>
+<option>Japan</option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+
+  </select>
+</div>
+			                
+			                
+			                
+			            </td>
+			            
+			            
+			           
+			        </tr>
+			        <tr>
+ <td>
+<div class="form-group">
+ <label for="sel1">Country/Religion Of Residence: *</label>
+  <select class="form-control" id="sel1">
+    <option>Select.......</option>
+    <option>Afghanistan</option>
+
+<option>Albania</option>
+
+<option>Algeria</option>
+
+<option>Argentina</option>
+
+<option>Australia</option>
+
+<option>Austria</option>
+
+<option>Albanian</option>
+<option>Algerian</option>
+<option>Argentine</option>
+<option>Australian</option>
+<option>Austrian</option>
+<option>Bangladesh</option>
+<option>Bengal</option>
+<option>Belgium</option>
+<option>Bolivia</option>
+<option>Botswana</option>
+<option>Brazil</option>
+<option>Bulgaria</option>
+<option>Cambodia</option>
+<option>Cameroon</option>
+<option>Canada</option>
+<option>Chile</option>
+<option>China</option>
+<option>Colombia</option>
+<option>Costa Rica</option>
+<option>Croatia</option>
+<option>Cuba</option>
+<option>Czech</option>
+<option>Republic</option>
+<option>Denmark</option>
+<option>Dominican Republic</option>
+<option>Ecuador</option>
+<option>Egypt</option>
+<option>El Salvador</option>
+<option>England</option>
+<option>Estonia</option>
+<option>Ethiopia</option>
+<option>Fiji</option>
+<option>Finland</option>
+<option>France</option>
+<option>Germany</option>
+<option>Ghana</option>
+<option>Greece</option>
+<option>Guatemala</option>
+<option>Haiti</option>
+<option>Honduras</option>
+<option>Hungary</option>
+<option>Iceland</option>
+<option>India</option>
+<option>Indonesia</option>
+<option>Iran</option>
+<option>Iraq</option>
+<option>Ireland</option>
+<option>Israel</option>
+<option>Italy</option>
+<option>Jamaica</option>
+<option>Japan</option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+<option>      </option>
+
+  </select>
+</div>
+			                
+			                
+			                
+			            </td>
+			        </tr>
+			        
+			        
+			        
+			    </table>
+			  </form>
+			    
+			  
+				
+			</div>
+			<div class="card-footer">
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+        
+        
+				
+	
+
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>  
